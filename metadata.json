@@ -1,0 +1,5 @@
+{
+  "name": "Android Dev Ranker",
+  "description": "A gamified PWA learning app for aspiring Android developers to level up their skills from beginner to pro, featuring AI-powered feedback and a rank-based progression system.",
+  "requestFramePermissions": []
+}
