@@ -1,9 +1,9 @@
 
 import React, { useState } from 'react';
-import Header from './components/Header';
-import BottomNav from './components/BottomNav';
-import CourseCard from './components/CourseCard';
-import AIFeedbackModal from './components/AIFeedbackModal';
+import Header from '../components/Header';
+import BottomNav from '../components/BottomNav';
+import CourseCard from '../components/CourseCard';
+import AIFeedbackModal from '../components/AIFeedbackModal';
 import type { User, Rank, Course } from './types';
 import { CourseCategory } from './types';
 
