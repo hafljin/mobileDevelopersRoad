@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "変数の宣言",
+        "description": "Kotlinで整数型の変数xを10で宣言してください。",
+        "code" : "// ここにコードを書いてください\n",
+        "answer": "var x: Int = 10"
+    },
+    {
+        "id": 2,
+        "level": 2,
+        "title": "if文の基本",
+        "description": "変数xが5より大きい場合に\"OK\"と出力するコードを書いてください。",
+        "code": "val x = 7\n// ここにコードを書いてください\n",
+        "answer": "if (x > 5) println(\"OK\")"
+    } 
+]
