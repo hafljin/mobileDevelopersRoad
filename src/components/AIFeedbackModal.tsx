@@ -1,6 +1,6 @@
 
 import React, { useState, useCallback } from 'react';
-import { getAIFeedback } from '../services/geminiService';
+// import { getAIFeedback } from '../services/geminiService';
 import { Bot, X } from './icons';
 
 interface AIFeedbackModalProps {
@@ -22,15 +22,11 @@ const AIFeedbackModal: React.FC<AIFeedbackModalProps> = ({ isOpen, onClose }) =>
     setIsLoading(true);
     setError('');
     setFeedback('');
-    try {
-      const result = await getAIFeedback(code);
-      setFeedback(result);
-    } catch (err) {
-      setError('フィードバックの取得に失敗しました。');
-      console.error(err);
-    } finally {
+    // ダミー実装: AIフィードバック機能は未実装
+    setTimeout(() => {
+      setFeedback('（ダミー）AIフィードバック機能は現在未実装です。');
       setIsLoading(false);
-    }
+    }, 1000);
   }, [code]);
 
   if (!isOpen) return null;
